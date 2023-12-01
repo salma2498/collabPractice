@@ -13,6 +13,7 @@ public class Sampletest1 {
 		driver.get("https://www.amazon.com");
 		String title=driver.getTitle();
 		System.out.println(title);
+		System.out.println("Browser is launched");
 		driver.close();
 	}
 
