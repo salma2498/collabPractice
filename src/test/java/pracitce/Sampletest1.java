@@ -15,6 +15,7 @@ public class Sampletest1 {
 		System.out.println(title);
 		driver.close();
 		System.out.println("Welcom Manoj");
+		driver.get("");
 	}
 
 }
